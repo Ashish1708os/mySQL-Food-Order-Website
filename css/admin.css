@@ -1,0 +1,135 @@
+/* 
+  Author: Ashish Salve, Abhishek Aringire
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+  /* border: 1px solid black; */
+  padding: 1%;
+  width: 80%;
+  margin: 0 auto;
+}
+.text-center {
+  text-align: center;
+}
+
+/* navbar */
+.navbar {
+  border: 1px solid gray;
+}
+.navbar ul {
+  list-style-type: none;
+}
+
+.navbar ul li {
+  display: inline;
+  padding: 1%;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #ff6b81;
+}
+
+.navbar ul li a:hover {
+  color: #e22837;
+}
+
+/* main-content */
+.main-content {
+  background-color: #f1f2f6;
+  padding: 3% 0px;
+}
+
+.col-4 {
+  width: 18%;
+  background-color: white;
+  margin: 1%;
+  padding: 2%;
+  float: left;
+}
+
+.clear-fix {
+  float: none;
+  clear: both;
+}
+
+.tbl-full {
+  width: 100%;
+}
+
+.tbl-30 {
+  width: 30%;
+}
+
+table tr th {
+  border-bottom: 1px solid black;
+  padding: 1%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+table tr td {
+  padding: 1%;
+}
+
+.input-style {
+  padding: 2%;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 1%;
+  font-weight: bold;
+  outline: none;
+  border: none;
+}
+
+.btn-primary {
+  background-color: #1e90ff;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #3742fa;
+}
+
+.btn-secondary {
+  background-color: #4cd137;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #44bd32;
+}
+
+.btn-denger {
+  background-color: #ff4757;
+  color: white;
+}
+
+.btn-denger:hover {
+  background-color: #e22837;
+}
+
+/*  Footer */
+.footer {
+  background-color: #ff4757;
+  color: white;
+}
+
+.footer-user-link {
+  text-decoration: none;
+  color: #f1f2f6;
+  font-weight: bold;
+}
+
+.footer-user-link:hover {
+  color: #a4b0be;
+}
