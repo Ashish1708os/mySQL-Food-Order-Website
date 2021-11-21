@@ -62,19 +62,19 @@ if (isset($_POST['submit'])) {
     // echo $sql;
 
     // 3. execute Query and save data in database
-    $res = mysqli_query($connection, $sql) or die(mysqli_error($connection));
+    $res = mysqli_query($conn, $sql) or die(mysqli_error($conn));
 
     // 4.check weather the (query is exicuted) data is inserted or not and display appropriate msg
     if ($res == true) {
         // echo "data inserted";
         // creating a session variable to display msg
-        $_SESSION['add'] = "Admin Added Successfully";
+        $_SESSION['add'] = "<div class='success'>Admin Added Successfully</div>";
         // redirect page
         header("location:" . SITEURL . 'admin/manage-admin.php');
     } else {
         // echo 'failed to insert data';
         // creating a session variable to display msg
-        $_SESSION['add'] = "failed to add admin";
+        $_SESSION['add'] = "<div class='error'>failed to add admin</div>";
         // redirect page
         header("location:" . SITEURL . 'admin/add-admin.php');
     }
