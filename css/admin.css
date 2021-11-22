@@ -1,5 +1,5 @@
 /* 
-  Author: Ashish Salve, Abhishek Aringire
+  Author: Ashish Salve, Abhishek Aringire, Shantanu Kurkarni
 */
 
 * {
@@ -68,6 +68,10 @@
   width: 30%;
 }
 
+.tbl-35 {
+  width: 35%;
+}
+
 table tr th {
   border-bottom: 1px solid black;
   padding: 1%;
@@ -81,6 +85,7 @@ table tr td {
 
 .input-style {
   padding: 2%;
+  width: 100%;
 }
 
 .btn {
