@@ -123,6 +123,16 @@ table tr td {
   background-color: #e22837;
 }
 
+.success {
+  color: #44bd32;
+  font-weight: bold;
+}
+
+.error {
+  color: #e22837;
+  font-weight: bold;
+}
+
 /*  Footer */
 .footer {
   background-color: #ff4757;
@@ -139,12 +149,23 @@ table tr td {
   color: #a4b0be;
 }
 
-.success {
-  color: #44bd32;
-  font-weight: bold;
+/* css for login */
+.login {
+  width: 30%;
+  border: 1px solid grey;
+  border-radius: 20px;
+  margin: 10% auto;
+  padding: 2%;
+  padding-bottom: 1%;
 }
 
-.error {
-  color: #e22837;
+.login input {
+  width: 90%;
+  padding: 2%;
+}
+
+.login-user-link {
+  color: #2f3542;
+  text-decoration: none;
   font-weight: bold;
 }
